@@ -1,0 +1,16 @@
+if SHIELD_EYELASH_SOFLE_CENTRAL_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Eyelash Sofle"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
+if SHIELD_EYELASH_SOFLE_CENTRAL_LEFT || SHIELD_EYELASH_SOFLE_PERIPHERAL_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
