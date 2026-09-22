@@ -53,7 +53,7 @@
                  &kp LCTRL &mt LANG2 LALT &mo LOWER &mt LGUI LANG1 &kp RET    &kp SPACE &mt RGUI LANG2 &lt RAISE DEL &kp RALT &kp RCTRL
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -91,7 +91,7 @@
                         &trans       &trans       &trans       &trans         &trans   &trans    &trans   &trans     &trans   &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adjust_layer {
